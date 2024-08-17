@@ -23,7 +23,7 @@ class Hangman:
                 if letter == guess:
                     # Replace the corresponding "_" in word_guessed with the guessed letter
                     self.word_guessed[index] = guess
-            
+                    print(self.word_guessed)
             # Reduce the num_letters by 1 for each unique correct guess
             self.num_letters -= 1
         else:
